@@ -94,7 +94,7 @@ const AvatarUpload = memo(function AvatarUpload({
       )}
       <input
         type="file"
-        accept="image/jpeg,image/jpg,image/png,image/gif,image/webp,image/bmp,image/svg+xml,image/heic,image/heif,image/avif,image/tiff,image/*"
+
         className="hidden"
         onChange={(e) => onUpload(e, position)}
       />
